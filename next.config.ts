@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
   experimental:{
-    serverActions: true,
+    serverActions: {},
   },
   async redirects() {
     return [

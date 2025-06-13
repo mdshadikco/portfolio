@@ -12,7 +12,7 @@ const ContactForm = () => {
     setIsSubmitting(true);
     try {
       const res = await createAction(formData);
-      alert( res?.name + ' your message sent successfully! ');
+      alert( res?.name +'!, ' + ' your message sent successfully! ');
     } catch (error) {
       console.error('Error submitting form:', error);
       alert('There was an error sending your message. Please try again.');
